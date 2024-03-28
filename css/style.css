@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+nav{
+  color : gray;
+  background-color: #9cdfb4;
+  height : 50px;
+  padding: 10px;
+  font-family: arial;
+}
+.container
+{
+  width: 500px;
+  height: 450px;
+  margin: 0 auto;
+  background: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body{
+  background: #a5afa9;
+}
+
+.form1{
+  height: 150px;
+  background: #b5e7c7;
+}
+.form2{
+  height: 150px;
+  background: #ceefda;
+}
+.form3{
+  height: 150px;
+  background: #e6f7ec;
+}
+footer{
+  background: #9cdfb4;
+  height: 100px;
+}
+.titulo{
+  margin: 0 auto;
+}
