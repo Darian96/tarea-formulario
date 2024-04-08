@@ -4,6 +4,9 @@ $persona1 = new Persona();
 $persona1->nombre = "luis";
 $persona1->apellido = "loe";
 $persona1->edad = 27;
+$persona1->setTelefono("123123213");
+
+ echo $persona1->getTelefono();
 
 echo '<br>';
 foreach ($persona1 as $indice => $value) {

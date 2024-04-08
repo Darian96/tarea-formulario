@@ -10,7 +10,6 @@ echo "Tu edad es de ", $edadResultado;
 
 
 
-
 /*$miarray = [$edad, $nombre];
 foreach ($miarray as $key => $value) {
     echo $value;

@@ -6,7 +6,7 @@ class Persona
     public $nombre;
     public $apellido;
     public $edad;
-    public $telefono;
+    private $telefono;
 
     function hablar(){
     	echo 'Estoy hablando';
@@ -18,6 +18,18 @@ class Persona
     function cantar()
     {
     	
+    }
+    function setTelefono($telefono)
+    {
+        $this->$telefono = $telefono;
+    }
+    function getTelefono()
+    {
+       return $this->telefono;
+    }
+    function validarTelefono($telefono)
+    {
+        
     }
 }
 
